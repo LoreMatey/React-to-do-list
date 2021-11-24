@@ -1,6 +1,6 @@
 # To do list with React
 
-(Insert description of the project here)
+This project has been created to learn how to do a task tracker with React.
 
 ## Available Scripts
 
