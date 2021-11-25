@@ -5,7 +5,7 @@ const Task = ({ task }) => {
     <div className='task'>
       <h2>
         {task.title}
-        <AiFillDelete />
+        <AiFillDelete className='deletion-icon' />
       </h2>
       <p>{task.day}</p>
     </div>
