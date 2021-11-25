@@ -2,10 +2,13 @@ import PropTypes from 'prop-types';
 import Button from './Button';
 
 const Header = ({ title }) => {
+    const addTask = () => {
+        console.log('clicked')
+    }
     return (
         <header className='header'>
             <h1 style={{textTransform: 'uppercase'}}>{title}</h1>
-            <Button />
+            <Button text='+' onClick={addTask} />
         </header>
     )
 }
