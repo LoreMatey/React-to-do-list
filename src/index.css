@@ -45,3 +45,10 @@ body {
   font-size: 14px;
   background-color: rgb(230, 243, 252);
 }
+
+.task h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid red; */
+}

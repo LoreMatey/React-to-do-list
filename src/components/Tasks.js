@@ -1,4 +1,5 @@
 import Task from './Task'
+import { AiFillDelete } from 'react-icons/fa'
 
 const Tasks = ({ tasks }) => {
 
