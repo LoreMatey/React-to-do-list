@@ -33,4 +33,5 @@ body {
   font-size: 18px;
   background-color:lightblue;
   color: rgb(32, 100, 139);
+  cursor: pointer;
 }
