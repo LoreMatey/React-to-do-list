@@ -29,13 +29,17 @@ body {
 }
 
 .button--add {
-  padding: 5px 10px;
+  padding: 5px 15px;
   border: none;
   border-radius: 5px;
-  font-size: 18px;
-  background-color:lightblue;
+  font-size: 20px;
+  background-color:rgb(173, 230, 221);
   color: rgb(32, 100, 139);
   cursor: pointer;
+}
+
+.button--add:hover {
+  background-color: rgb(96, 197, 167);
 }
 
 .task {
