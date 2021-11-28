@@ -50,6 +50,10 @@ body {
   background-color: rgb(229, 245, 250);
 }
 
+.task.reminder {
+  border-left: 5px solid rgb(96, 197, 167);
+}
+
 .task h2 {
   display: flex;
   justify-content: space-between;

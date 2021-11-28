@@ -1,8 +1,10 @@
 import { AiFillDelete } from 'react-icons/ai'
 
-const Task = ({ task, onDelete }) => {
+const Task = ({ task, onDelete, onToggle }) => {
   return (
-    <div className='task'>
+    <div 
+      className={`task ${task.reminder ? 'reminder' : ''}`} 
+      onDoubleClick={() => onToggle(task.id)}>
       <h2>
         {task.title}
         <AiFillDelete 
