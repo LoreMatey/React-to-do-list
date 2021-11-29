@@ -70,3 +70,50 @@ body {
 .deletion-icon:hover {
   color: rgb(245, 109, 109);
 }
+
+/* .form-control {
+  border: 1px solid grey;
+}  */
+
+.form-control label{
+  display: block;
+  padding: 10px 0;
+  /* border: 1px solid rgb(0, 255, 42); */
+}
+
+.form-control input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(52, 126, 168);
+  border-radius: 5px;
+}
+
+.form-control input:focus {
+  outline: 1px solid rgb(111, 240, 201);
+}
+
+/* .checkbox-container {
+  border: 1px solid rgb(176, 8, 228);
+}  */
+
+.checkbox-container label::after {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  width: 15px;
+  height: 15px;
+  border: 1px solid rgb(52, 126, 168);
+  border-radius: 3px;
+}
+
+input[type='checkbox'] {
+  display: none;
+}
+
+input[type='checkbox']:checked + label::after {
+  content: '✓';
+  line-height: 1.1rem;
+  text-align: center;
+  color: rgb(96, 197, 167);
+}
