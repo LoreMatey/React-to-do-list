@@ -7,14 +7,14 @@ const Header = ({ title }) => {
     }
     return (
         <header className='header'>
-            <h1 style={{textTransform: 'uppercase'}}>{title}</h1>
+            <h1>{title}</h1>
             <Button text='+' onClick={addTask} />
         </header>
     )
 }
 
 Header.defaultProps = {
-    title: 'Task Tracker',
+    title: 'What do we have today?',
 }
 
 Header.propTypes = {
