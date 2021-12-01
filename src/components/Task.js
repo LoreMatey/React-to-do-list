@@ -5,14 +5,14 @@ const Task = ({ task, onDelete, onToggle }) => {
     <div 
       className={`task ${task.reminder ? 'reminder' : ''}`} 
       onDoubleClick={() => onToggle(task.id)}>
-      <h2>
-        {task.title}
-        <AiFillDelete 
-          className='deletion-icon' 
-          onClick={() => onDelete(task.id)} 
-        />
-      </h2>
-      <p>{task.day}</p>
+        <h2>
+          {task.title}
+          <AiFillDelete 
+            className='deletion-icon' 
+            onClick={() => onDelete(task.id)} 
+          />
+        </h2>
+        <p>{task.day}</p>
     </div>
   )
 }

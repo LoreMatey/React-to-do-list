@@ -1,8 +1,8 @@
-import PropTypes from 'prop-types';
-const Button = ({text, addTask}) => {
+// import PropTypes from 'prop-types';
+const Button = ({ text, onClick }) => {
     return (
         <button 
-            onClick={addTask} 
+            onClick={onClick} 
             className='button--add'
         >
             {text}
@@ -10,9 +10,9 @@ const Button = ({text, addTask}) => {
     )
 }
 
-Button.propTypes = {
-    onClick: PropTypes.func,
-    text: PropTypes.string
-}
+// Button.propTypes = {
+//     onClick: PropTypes.func,
+//     text: PropTypes.string
+// }
 
 export default Button;
