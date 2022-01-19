@@ -1,6 +1,8 @@
 # To do list with React ⚛️ 📝
 
-This project has been created to learn how to do a task tracker with React.
+This project has been bootstrapped with Create React App with the purpose of learning the basics of React, such as React architecture, components, JSX, and tracking state with useState Hook.
+
+Background image has been taken from [Freepik](https://image.freepik.com/vector-gratis/atascado-casa-hacer-lista-pegatinas-doodle_53876-116659.jpg).
 
 ![React-to-do-list](https://user-images.githubusercontent.com/75860941/150120150-726f934d-fe17-4844-87be-741be6203833.gif)
 
