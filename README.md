@@ -1,6 +1,9 @@
-# To do list with React
+# To do list with React ⚛️ 📝
 
 This project has been created to learn how to do a task tracker with React.
+
+![React-to-do-list](https://user-images.githubusercontent.com/75860941/150120150-726f934d-fe17-4844-87be-741be6203833.gif)
+
 
 ## Available Scripts
 
